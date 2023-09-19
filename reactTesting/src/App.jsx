@@ -7,14 +7,18 @@ import Product from './Product'
 import Button from './Button'
 
 function App() {
+  const [count, setCount] = useState(0);
   
+  const handleClick = () => {
+    setCount(count + 1);
+  }
 
   return (
     <>
       <Component1 />
       <Product />
-      <Button />
-      <Button />
+      <Button count={count} onClick={handleClick}/>
+      <Button count={count} onClick={handleClick}/>
     </>
   )
 }
