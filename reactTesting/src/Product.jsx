@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Product = () => {
     const products = [
         { title: 'Cabbage', isFruit: false, id: 1},
@@ -22,6 +23,7 @@ const Product = () => {
   
     return (
     <ul>{listItems}</ul>
+    
   )
 }
 

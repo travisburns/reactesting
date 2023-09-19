@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Component1 from './Component1'
 import Product from './Product'
+import Button from './Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <Component1 />
       <Product />
+      <Button />
     </>
   )
 }
