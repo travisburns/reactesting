@@ -5,7 +5,7 @@ import './App.css'
 import Component1 from './Component1'
 import Product from './Product'
 import Button from './Button'
-import TickTacMain from './TickTacMain'
+import TickTacToeBoard from './TickTacToeBoard'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ function App() {
       <Product />
       <Button count={count} onClick={handleClick}/>
       <Button count={count} onClick={handleClick}/>
-      <TickTacMain />
+      <TickTacToeBoard />
     </>
   )
 }
